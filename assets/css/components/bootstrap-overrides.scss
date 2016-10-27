@@ -1,0 +1,28 @@
+@import 'components/variables';
+
+// Default overrides
+$brand-primary: $color-pink;
+$brand-success: $color-blue;
+$brand-info:    #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger:  #d9534f !default;
+
+$font-size-base: 16px;
+
+// NAVBAR OVERRIDES
+$navbar-height: 75px;
+$navbar-border-radius: 0;
+$navbar-margin-bottom: 0;
+$navbar-default-color: #fff;
+$navbar-default-bg: #fff;
+$navbar-default-border: transparent;
+$navbar-default-link-color: $color-dark;
+$navbar-default-link-hover-color: #fff;
+$navbar-default-link-hover-bg: $color-blue;
+$navbar-default-link-active-color: #fff;
+$navbar-default-link-active-bg: $color-blue;
+$navbar-default-brand-color: $color-blue;
+$navbar-default-brand-hover-color: $color-pink;
+$navbar-default-toggle-hover-bg: #fff;
+$navbar-default-toggle-icon-bar-bg: $color-blue;
+$navbar-default-toggle-border-color: $color-blue;

@@ -1,0 +1,91 @@
+.navbar-default {
+  border-bottom: $border-blue;
+  font-family: $font-family-sans-serif;
+
+  .navbar-toggle {
+    border-radius: 0;
+    .icon-bar {
+      color: $color-blue;
+      background-color: $color-blue;
+    }
+  }
+
+  .navbar-brand {
+    font-family: $font-family-brand;
+    font-size: 1.5em;
+    @media screen and (max-width: $screen-sm) {
+      color: $color-pink;
+    }
+  }
+
+  .navbar-nav {
+    font-family: $font-family-sans-serif;
+  }
+
+  @media only screen and (max-width: $screen-sm) {
+    .navbar-nav {
+      margin-top: 0;
+      margin-bottom: 0;
+      border-top: $border-blue;
+
+      li > a {
+        text-align: center;
+        padding: 15px 0;
+      }
+    }
+  }
+}
+
+.navbar-toggle {
+  width: 45px;
+  height: 30px;
+  top: -2px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  border: none;
+  background: none;
+
+  span.menu {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: $color-blue;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+
+    &:nth-child(2) {
+      top: -2px;
+    }
+    &:nth-child(4),
+    &:nth-child(3) {
+      top: 14px;
+    }
+    &:nth-child(5) {
+      top: 30px;
+    }
+  }
+
+  &.open span.menu {
+    &:nth-child(2) {
+      top: 18px;
+      width: 0%;
+      left: 50%;
+    }
+    &:nth-child(3) {
+      transform: rotate(45deg);
+    }
+    &:nth-child(4) {
+      transform: rotate(-45deg);
+    }
+    &:nth-child(5) {
+      top: 18px;
+      width: 0%;
+      left: 50%;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/**
+ * Global CSS
+ */
+
+// Bootstrap
+$icon-font-path: '../lib/bootstrap/assets/fonts/bootstrap/';
+@import 'components/bootstrap-overrides';
+@import '../lib/bootstrap/assets/stylesheets/_bootstrap.scss';
+
+// Font Awesome
+$fa-font-path: '../lib/font-awesome/fonts/';
+@import '../lib/font-awesome/scss/font-awesome.scss';
+
+// Site Components
+@import 'components/typography';
+@import 'components/buttons';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/page';
+
+// Pages
+@import 'pages/home';

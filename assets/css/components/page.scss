@@ -1,0 +1,9 @@
+.page-content {
+  margin-bottom: 144px;
+}
+
+@media screen and (max-width: $screen-md) {
+  .page-content {
+    margin-bottom: 0;
+  }
+}

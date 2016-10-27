@@ -1,0 +1,31 @@
+/****
+  Global Variables
+***/
+
+// Colors
+$color-pink: #E52A6F;
+$color-blue: #67AECA;
+$color-dark: #5f0f4e;
+$color-white: #fff;
+$color-black: #000;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Permanent+Marker');
+$font-family-sans-serif: 'Montserrat', sans-serif;
+$font-family-serif: $font-family-sans-serif;
+$font-family-brand: 'Permanent Marker', cursive;
+$font-family-base: $font-family-serif;
+
+// Breakpoints
+$screen-xs:      480px;
+$screen-phone:   $screen-xs;
+$screen-sm:      768px;
+$screen-tablet:  $screen-sm;
+$screen-md:      992px;
+$screen-desktop: $screen-md;
+$screen-lg:      1200px;
+
+// Borders
+$border-pink: 3px solid $color-pink;
+$border-blue: 3px solid $color-blue;
+$border-dark: 3px solid $color-dark;

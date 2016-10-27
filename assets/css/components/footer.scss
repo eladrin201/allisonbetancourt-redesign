@@ -1,0 +1,50 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: block;
+}
+
+.contact-section {
+  padding: 30px 0;
+  text-align: center;
+  background-color: $color-pink;
+
+  .btn {
+    margin-bottom: 0;
+  }
+  a.social {
+    border-radius: 100%;
+    display: inline-block;
+    background-color: $color-blue;
+    color: $color-white;
+    padding: 7px 13px;
+    font-size: 1.5em;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: $color-blue;
+      background-color: $color-white;
+      transition: all 0.3s ease;
+
+    }
+  }
+}
+
+.attribution {
+  background: $color-dark;
+  color: darken($color-white, 50%);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.75em;
+}
+
+@media screen and (max-width: $screen-md) {
+  .footer {
+    position: relative;
+  }
+  .contact-section .btn {
+    margin-bottom: 15px;
+  }
+}
