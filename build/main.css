@@ -8353,6 +8353,12 @@ p {
       left: 0;
       right: 0;
       background-color: rgba(95, 15, 78, 0.6); }
+  .current-work-section .btn {
+    margin-left: 0;
+    margin-right: 0; }
+  .current-work-section .more {
+    margin-top: 30px;
+    float: right; }
 
 .page-content.blue {
   background-color: #67AECA;
