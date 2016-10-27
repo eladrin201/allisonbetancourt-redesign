@@ -1,0 +1,51 @@
+.page-content.blue {
+  background-color: $color-blue;
+  padding-bottom: 50px;
+
+  .page-header {
+    margin-bottom: 50px;
+  }
+}
+.resume-wrapper {
+  padding: 20px;
+  h2 {
+    color: #E52A6F;
+    margin-bottom: 40px;
+    font-family: $font-family-brand;
+  }
+  ul {
+    padding-left: 20px;
+  }
+}
+.contact-links {
+  text-align: right;
+}
+.resume-block {
+  .block-title {
+    background: #5f0f4e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .job-wrapper {
+    padding: 5px;
+
+    h4.company,
+    h4.project-title {
+      margin-bottom: 0px;
+      margin-top: 0px;
+
+      span {
+        float: right;
+        color: $color-black;
+      }
+    }
+    h5.title {
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family: $font-family-brand;
+    }
+  }
+}
