@@ -8239,6 +8239,30 @@ p {
 .page-content {
   margin-bottom: 144px; }
 
+.page-header {
+  border: 0;
+  text-align: center;
+  background-color: #E52A6F;
+  margin-top: 0;
+  display: table;
+  width: 100%;
+  height: 20vh; }
+  .page-header.dark {
+    background-color: #5f0f4e; }
+  .page-header .page-header-inner {
+    display: table-cell;
+    vertical-align: middle; }
+  .page-header h1 {
+    margin: 0;
+    font-family: "Permanent Marker", cursive;
+    color: white;
+    font-size: 4em; }
+
+.bk-white {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5); }
+
 @media screen and (max-width: 992px) {
   .page-content {
     margin-bottom: 0; } }
@@ -8304,10 +8328,6 @@ p {
     text-align: center;
     color: #5f0f4e;
     margin-bottom: 0; }
-  .current-work-section .bk-white {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5); }
   .current-work-section .work-tile {
     margin-top: 40px; }
   .current-work-section div.image-wrapper {
@@ -8333,3 +8353,43 @@ p {
       left: 0;
       right: 0;
       background-color: rgba(95, 15, 78, 0.6); }
+
+.page-content.blue {
+  background-color: #67AECA;
+  padding-bottom: 50px; }
+  .page-content.blue .page-header {
+    margin-bottom: 50px; }
+
+.resume-wrapper {
+  padding: 20px; }
+  .resume-wrapper h2 {
+    color: #E52A6F;
+    margin-bottom: 40px;
+    font-family: "Permanent Marker", cursive; }
+  .resume-wrapper ul {
+    padding-left: 20px; }
+
+.contact-links {
+  text-align: right; }
+
+.resume-block .block-title {
+  background: #5f0f4e;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.resume-block .job-wrapper {
+  padding: 5px; }
+  .resume-block .job-wrapper h4.company,
+  .resume-block .job-wrapper h4.project-title {
+    margin-bottom: 0px;
+    margin-top: 0px; }
+    .resume-block .job-wrapper h4.company span,
+    .resume-block .job-wrapper h4.project-title span {
+      float: right;
+      color: #000; }
+  .resume-block .job-wrapper h5.title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Permanent Marker", cursive; }
