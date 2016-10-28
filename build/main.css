@@ -8026,6 +8026,11 @@ h2.section-header {
 p {
   margin-bottom: 15px; }
 
+.section-header-book {
+  font-family: "Permanent Marker", cursive;
+  color: #E52A6F;
+  margin-top: 0; }
+
 .btn {
   border-radius: 0;
   padding: 10px 30px 9px;
