@@ -2,7 +2,7 @@
  * Global JS
  */
 
-require('../lib/bootstrap/assets/javascripts/bootstrap.min.js');
+require('../lib/bootstrap/js/bootstrap.min.js');
 
 // Navbar toggle hamburger
 $(document).ready(function() {
