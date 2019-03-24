@@ -3,9 +3,8 @@
  */
 
 // Bootstrap
-$icon-font-path: '../lib/bootstrap/assets/fonts/bootstrap/';
 @import 'components/bootstrap-overrides';
-@import '../lib/bootstrap/assets/stylesheets/_bootstrap.scss';
+@import '../lib/bootstrap/css/bootstrap.min.css';
 
 // Font Awesome
 $fa-font-path: '../lib/font-awesome/fonts/';
